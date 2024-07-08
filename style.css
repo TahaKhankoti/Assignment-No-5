@@ -1,0 +1,370 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 1269px;
+    background-color:black;
+    background: linear-gradient(to right,black,rgb(56, 55, 55));
+    background: #080808;
+    color: antiquewhite;
+}
+
+span{
+    padding-right: 10px;
+}
+
+/* HEADER */
+
+.techno{
+    font-style:italic;
+    text-align: left;
+    font-size: 50px;
+}
+
+.shadow{
+    font-size: 2rem; 
+    text-shadow: 15px -15px 5px antiquewhite;
+}
+
+.banner-shadow{
+    text-shadow: 15px -15px 5px darkgray;
+}
+
+
+.header{
+    background-color: aqua;
+    height: 500px;
+}
+
+.nav-top{   
+    background-color: #262626;
+    text-align: right;
+}
+
+.nav-top-display{
+    display: inline-block;
+    width: 33%;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    font-size: larger;
+}
+
+.nav-bottom{
+   
+    color: white;
+    text-align:right;
+    background-color: #080808;
+}
+
+.one,.two,.three{
+    display: inline-block;
+    width: 33%;
+    padding: 10px 0 10px 0;
+    
+} 
+
+select{
+    background-color: #262626;
+    border: none;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+
+
+/* Banner */
+
+.banner{
+    background-color: red;
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/main-banner-1.png?v=1714560913
+    );
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+} 
+
+.banner-text{
+    text-align: center;
+    color: white;
+    /* border: 2px solid white; */
+    padding-top: 130px;
+}
+
+.light{
+    color: rgba(234, 235, 236, 0.836);
+    font-size: xx-large;
+    font-style: italic;
+}
+
+h1{
+    font-size: 5rem;
+
+}
+
+.banner-margin{
+    margin-bottom: 40px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #4b96d9;
+    color: white;
+    font-size: 0.85rem;
+    border: none;
+}
+
+/* Main */
+
+.main{
+    
+    /* background-color: rgb(53, 49, 49); */
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+}
+
+.main-text{
+    padding-top: 50px;
+    color: white;
+}
+
+
+
+
+/* Circles */
+
+.main-circle{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.circle{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: #2a2b2b;
+    border-radius: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.circle-one{
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/category-1_x100.png?v=1714565025);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.circle-two{
+    background-image: url(	https://techno-workdo.myshopify.com/cdn/shop/files/category-2_x100.png?v=1714565025);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle-three{
+    background-image: url(	https://techno-workdo.myshopify.com/cdn/shop/files/category-3_x100.png?v=1714565025);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle-four{
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/category-4_x100.png?v=1714565025);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle-five{
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/category-5_x100.png?v=1714565025);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle-six{
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/category-6_x100.png?v=1714566664);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Rectangles */
+
+.main-rectangular{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.main-rectangular-one,.main-rectangular-two{
+    display: inline-block;
+    width: 49%;
+    height: 360px;
+    background-color: aquamarine;
+    
+    
+}
+
+.main-rectangular-content{
+    margin-top: 100px;
+}
+
+.main-rectangular-content h2{
+    font-size: 2rem;
+    margin: 15px 0px;
+}
+
+.main-rectangular-content p{
+    font-size: 1.3rem;
+   
+}
+
+.main-rectangular-one{
+    margin-right: 15px;
+    background-image: url(	https://techno-workdo.myshopify.com/cdn/shop/files/box-image-1.png?v=1714622893);
+}
+
+.main-rectangular-two{
+
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/box-image-2.png?v=1714622894);
+}
+
+/* Square */
+
+.red{
+    color: red;
+  
+}
+
+
+
+.main-square{
+    text-align: center;
+    margin-top: 40px;
+}
+.main-square-box{
+    display: inline-block;
+    width: 100%;
+    height: 450px;
+    background-color: #1c1c1c;
+    
+}
+
+.main-square-right{
+    margin-right: 10px;
+}
+
+.main-square-image{
+    height: 55%;
+    background-color: gainsboro;
+    margin: 15px;
+
+  
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    height: 50%;
+    margin: 15px;
+    background-color: wheat;
+}
+
+.square-one-content{
+    text-align: left;
+    margin: 15px;
+}
+
+
+
+.square-one-content h2{
+    font-size: 1.2rem;
+
+}
+
+.content-margin{
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 25%;
+    padding: 10px;
+}
+
+/* .main-square-content{
+    height: 200px;
+    background-color: #f15050;
+    margin: 15px;
+} */
+
+
+
+
+/* Footer */
+
+
+
+.footer-content{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-content h2{
+    font-size: 2.3rem;
+}
+.footer-image{
+    width: 100%;
+    height: 500px;
+    background-color: #3d3d3d;
+    background-blend-mode: overlay;
+    background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/discount-banner.png?v=1714633110);
+    background-position: center;
+
+}
+.footer-margin{
+    margin-bottom: 20px;
+}
+
+.Red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+
+
+/* Hover States */
+
+a:hover{
+    color: rgb(156, 153, 153);
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: green;
+    color:#4b96d9 ;
+    border: 2px solid #4b96d9;
+}
+
+/* Media */
+
+@media (max-width:340px) {
+    .nav-top-one,.nav-top-three{
+        display: none;
+    }
+}
